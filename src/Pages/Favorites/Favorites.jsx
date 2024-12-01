@@ -56,7 +56,7 @@ const Favorites = () => {
     <section className="sectionFav">
       <div className="container">
         <div className="title">
-          <h1>Mes favories</h1>
+          <h1>Mes favoris</h1>
         </div>
 
         <div className="contenentCharactersNComics">
