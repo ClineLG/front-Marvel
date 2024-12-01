@@ -54,7 +54,12 @@
   font-size: 25px;
   font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
 }
-
+.searchHome input:focus {
+  outline: none;
+}
+select:focus {
+  background-color: ivory;
+}
 .contenentCharacters {
   display: flex;
   flex-wrap: wrap;
