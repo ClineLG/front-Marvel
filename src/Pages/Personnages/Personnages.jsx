@@ -68,7 +68,7 @@ const Personnages = () => {
         >
           <input
             type="text"
-            placeholder="entre le nom du persononage que tu veux trouver !"
+            placeholder="entre le nom du personnage que tu veux trouver !"
             onChange={(event) => {
               const newObj = { page: 1, search: event.target.value };
               // newObj.search = event.target.value;
