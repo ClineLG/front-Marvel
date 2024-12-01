@@ -63,8 +63,15 @@
   font-size: 20px;
   text-align: center;
 }
+.mainFavDiv .trash {
+  border-radius: 05px;
+
+  background-color: white;
+  border: rgb(0, 0, 0) solid 1px;
+}
 .mainFavDiv .trash:hover {
   cursor: pointer;
+  box-shadow: 0px 0px 15px 5px #000000;
 }
 
 .container.empty {
@@ -81,5 +88,17 @@
   padding: 100px;
   height: 100%;
   width: 100%;
-  background-color: rgba(168, 168, 168, 0.218);
+  text-align: center;
+  background-color: rgba(213, 213, 213, 0.525);
+}
+
+@media (max-width: 1200px) {
+  .firstChild {
+    width: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .firstChild {
+    width: 80%;
+  }
 }

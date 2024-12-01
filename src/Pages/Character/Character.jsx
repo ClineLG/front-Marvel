@@ -14,6 +14,7 @@ const Character = () => {
   const characterId = params.characterId;
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
+  const [Message, setMessage] = useState("");
 
   // let fav = Cookies.get("favories");
   const token = Cookies.get("token");
@@ -51,15 +52,25 @@ const Character = () => {
           },
         }
       );
-      console.log(response.data);
+      if (response.data) {
+        setMessage("Ajouté avec succés à vos favories");
+      }
     } catch (error) {
-      console.log(error.message);
+      if (error.response.data.message === "wrong token") {
+        setMessage(
+          "Vous devez être connecté pour ajouté cette fiche à vos favories !"
+        );
+      }
+      console.log(error);
     }
   };
 
   return !isLoading ? (
     <section>
       <div className="container comicBook">
+        <div className="errorMessage">
+          <p>{Message}</p>
+        </div>
         <div className="ComicDetails">
           <div>
             <h1>{data.name}</h1>

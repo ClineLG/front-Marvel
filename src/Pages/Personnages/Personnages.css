@@ -18,7 +18,6 @@
   object-fit: contain;
 }
 .hero {
-  position: relative;
   margin-top: 100px;
   margin-bottom: 50px;
   overflow: hidden;
@@ -33,7 +32,6 @@
 }
 
 .searchHome {
-  background-color: black;
   color: white;
   display: flex;
   justify-content: center;
@@ -156,4 +154,37 @@
   padding-top: 30px;
   font-size: 50px;
   color: black;
+}
+
+@media (max-width: 1300px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+  .topHero {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.318);
+    display: block;
+    text-align: center;
+  }
+  .searchHome form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .topHero h1 {
+    font-size: 30px;
+  }
+
+  .characterDetails {
+    margin-left: 30px;
+    width: 40%;
+  }
+  .characterDetails img {
+    width: 70%;
+    height: 40%;
+  }
+  .characterDetails h3 {
+    font-size: 30px;
+  }
 }

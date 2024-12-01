@@ -34,3 +34,9 @@ h3 {
 .link:hover {
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}

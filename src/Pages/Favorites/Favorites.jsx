@@ -95,7 +95,7 @@ const Favorites = () => {
   ) : !isLoading && data.favories.length === 0 ? (
     <section>
       <div className="container empty">
-        <h2>Sorry you don't have any Favories</h2>
+        <h2>Vous n'avez aucun favories à consulter pour le moment !</h2>
       </div>
     </section>
   ) : (

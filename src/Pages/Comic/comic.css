@@ -131,6 +131,25 @@ section {
   font-size: 20px;
 }
 
+.errorMessage {
+  color: white;
+  text-align: center;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  .ComicDetails {
+    width: 70%;
+  }
+  .ComicDetails img {
+    width: 100%;
+  }
+  .ComicDetails h1 {
+    font-size: 30px;
+  }
+}
+
 /* HTML: <div class="loader"></div> */
 .loader {
   margin: 100px auto;

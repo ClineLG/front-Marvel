@@ -14,7 +14,7 @@ const Comic = () => {
   const comicId = params.comicId;
   const [data, setData] = useState({ comic: {}, characters: {} });
   const [isLoading, setIsLoading] = useState(true);
-  const [errorMessage, setErrorMessage] = useState("");
+  const [Message, setMessage] = useState("");
   // const [fav, setFav] = useState([]);
   // let fav = Cookies.get("favories");
   const token = Cookies.get("token");
@@ -42,6 +42,7 @@ const Comic = () => {
 
   const handleClick = async (data) => {
     try {
+      setMessage("");
       console.log(data.comic);
       const response = await axios.put(
         "https://site--marvel-backend--dm4qbjsg7dww.code.run/user/favories",
@@ -52,8 +53,17 @@ const Comic = () => {
           },
         }
       );
+      if (response.data) {
+        setMessage("Ajouté avec succés à vos favories");
+      }
     } catch (error) {
-      console.log(error.message);
+      console.log(error.response.data);
+      if (error.response.data.message === "wrong token") {
+        setMessage(
+          "Vous devez être connecté pour ajouté cette fiche à vos favories !"
+        );
+      }
+      console.log(error);
     }
   };
   return !isLoading ? (
@@ -61,6 +71,9 @@ const Comic = () => {
       {/* {console.log(data)} */}
 
       <div className="container comicBook">
+        <div className="errorMessage">
+          <p>{Message}</p>
+        </div>
         <div className="ComicDetails">
           <div className="comic">
             <GiSpiderMask

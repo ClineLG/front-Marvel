@@ -43,7 +43,7 @@ const Header = ({ setSignUp, setLogin, setConnected, connected }) => {
       <div>
         <div className="container">
           <div>
-            <Link to="/">
+            <Link to="/" className="hide">
               <span>PERSONNAGES</span>
             </Link>
             <Link to="/comics">
@@ -55,6 +55,7 @@ const Header = ({ setSignUp, setLogin, setConnected, connected }) => {
           </Link>
           <div id="connectionFeat">
             <Link
+              className="seco"
               onClick={() => {
                 setLogin(true);
                 setSignUp(false);
@@ -122,7 +123,7 @@ const Header = ({ setSignUp, setLogin, setConnected, connected }) => {
               <img src={mainLogo} alt="" />
             </Link>
             <div className="persoComic">
-              <Link to="/">
+              <Link to="/" className="hide">
                 <span>PERSONNAGES</span>
               </Link>
               <Link to="/comics">
@@ -146,7 +147,7 @@ const Header = ({ setSignUp, setLogin, setConnected, connected }) => {
               >
                 <div>
                   <img src={userDetails.account.avatar} alt="avatar" />
-                  <span>{userDetails.account.username}</span>
+                  <span className="hide">{userDetails.account.username}</span>
 
                   <FaPowerOff />
                 </div>
