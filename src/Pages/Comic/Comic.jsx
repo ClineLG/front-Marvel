@@ -14,6 +14,7 @@ const Comic = () => {
   const comicId = params.comicId;
   const [data, setData] = useState({ comic: {}, characters: {} });
   const [isLoading, setIsLoading] = useState(true);
+  const [errorMessage, setErrorMessage] = useState("");
   // const [fav, setFav] = useState([]);
   // let fav = Cookies.get("favories");
   const token = Cookies.get("token");
