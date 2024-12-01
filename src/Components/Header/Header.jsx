@@ -27,7 +27,7 @@ const Header = ({ setSignUp, setLogin, setConnected, connected }) => {
               },
             }
           );
-          console.log(response.data);
+          // console.log(response.data);
           setUserDetails(response.data);
           setIsLoading(false);
         } catch (error) {
