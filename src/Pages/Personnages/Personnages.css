@@ -57,9 +57,7 @@
 .searchHome input:focus {
   outline: none;
 }
-select:focus {
-  background-color: ivory;
-}
+
 .contenentCharacters {
   display: flex;
   flex-wrap: wrap;

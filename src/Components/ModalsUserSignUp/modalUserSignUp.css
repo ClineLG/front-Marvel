@@ -38,7 +38,9 @@
   background-color: black;
   color: white;
 }
-
+.SignUp form input:focus {
+  outline: none;
+}
 .SignUp form h2 {
   font-size: 35px;
 }

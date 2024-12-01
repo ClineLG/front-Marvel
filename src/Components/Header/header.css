@@ -160,9 +160,6 @@ header .connectedFeat .favoriess {
   .hide {
     display: none;
   }
-  .seco {
-    margin-right: -20px;
-  }
 
   .container a span {
     font-size: 20px;
@@ -186,5 +183,14 @@ header .connectedFeat .favoriess {
   #connectionFeat {
     /* font-size: 63px; */
     justify-content: flex-start;
+  }
+}
+@media (max-width: 480px) {
+  header .container {
+    gap: 10px;
+    width: 100vw;
+  }
+  #seco {
+    display: none;
   }
 }

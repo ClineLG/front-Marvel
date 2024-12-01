@@ -55,7 +55,7 @@ const Header = ({ setSignUp, setLogin, setConnected, connected }) => {
           </Link>
           <div id="connectionFeat">
             <Link
-              className="seco"
+              id="seco"
               onClick={() => {
                 setLogin(true);
                 setSignUp(false);
