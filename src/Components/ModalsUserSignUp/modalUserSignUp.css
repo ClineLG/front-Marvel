@@ -12,8 +12,9 @@
 }
 .SignUp div.mainSign {
   width: 700px;
-  background-color: rgb(141, 2, 2);
+  background-color: rgb(168, 165, 165);
   width: 300px;
+  border: solid 2px black;
   border-radius: 5px;
   padding: 20px 20px;
 }
