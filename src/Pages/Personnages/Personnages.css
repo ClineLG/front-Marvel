@@ -168,8 +168,14 @@
   .searchHome form {
     width: 80%;
   }
-}
 
+  .characterDetails {
+    margin-left: 30px;
+  }
+}
+.home.container {
+  padding: 10px;
+}
 @media (max-width: 800px) {
   .topHero h1 {
     font-size: 30px;
