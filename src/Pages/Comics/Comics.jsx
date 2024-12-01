@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import batmanComics from "../../assets/imgs/batman/batmanComics/batmanComics";
+import batmanComics from "../../../public/imgs/batman/batmanComics/batmanComics";
 import funcRandom from "../../func/funcRandom";
 import Page from "../../Components/Page/Page";
 

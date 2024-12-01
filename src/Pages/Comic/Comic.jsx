@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
-import bat from "../../assets/imgs/batman/batman-portait/bat1.jpg";
+import bat from "../../../public/imgs/batman/batman-portait/bat1.jpg";
 
 import { GiSpiderMask } from "react-icons/gi";
 

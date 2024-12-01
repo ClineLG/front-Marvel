@@ -6,7 +6,7 @@ import axios from "axios";
 
 import { GiSpiderMask } from "react-icons/gi";
 
-import mainLogo from "../../assets/imgs/logo.png";
+import mainLogo from "../../../public/imgs/logo.png";
 import { FaPowerOff } from "react-icons/fa6";
 
 const Header = ({ setSignUp, setLogin, setConnected, connected }) => {

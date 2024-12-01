@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 import Page from "../../Components/Page/Page";
 
-import batPortrait from "../../assets/imgs/batman/batman-portait/batPortrait";
+import batPortrait from "../../../public/imgs/batman/batman-portait/batPortrait";
 import "./Personnages.css";
 
 import funcRandom from "../../func/funcRandom";
-import familly from "../../assets/imgs/familly.jpg";
+import familly from "../../../public/imgs/familly.jpg";
 const Personnages = () => {
   // batmanComics.map(({ id, src }) => <img key={id} src={src} />);
   // console.log(batmanComics[3]);

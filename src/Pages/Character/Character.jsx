@@ -6,7 +6,7 @@ import Cookies from "js-cookie";
 
 import { GiSpiderMask } from "react-icons/gi";
 import "./character.css";
-import bat from "../../assets/imgs/batman/batman-portait/bat1.jpg";
+import bat from "../../../public/imgs/batman/batman-portait/bat1.jpg";
 
 const Character = () => {
   const params = useParams();
