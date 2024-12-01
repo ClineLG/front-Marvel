@@ -162,7 +162,6 @@
     height: fit-content;
   }
   .topHero {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.318);
     display: block;
     text-align: center;
   }
