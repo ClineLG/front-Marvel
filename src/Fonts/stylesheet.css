@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "BentonSans ExtraComp";
+  src: url("BentonSansExtraComp-Black.eot");
+  src: url("BentonSansExtraComp-Black.eot?#iefix") format("embedded-opentype"),
+    url("BentonSansExtraComp-Black.woff2") format("woff2"),
+    url("BentonSansExtraComp-Black.woff") format("woff"),
+    url("BentonSansExtraComp-Black.ttf") format("truetype"),
+    url("BentonSansExtraComp-Black.svg#BentonSansExtraComp-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,207 @@
+.container.comicBook {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ComicDetails {
+  width: 50%;
+  align-self: center;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: fit-content;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(255, 55, 0, 0.05),
+      rgba(13, 13, 3, 0.164)
+    ),
+    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+}
+.ComicDetails div:not(.imgToFav) {
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #f6f7f2a2;
+}
+
+.ComicDetails img {
+  align-self: center;
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+  border: solid 3px black;
+}
+
+.ComicDetails h1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 45px;
+}
+.container.comicBook .ComicDetails div:first-child {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.favories {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  align-self: flex-start;
+  color: #982e32;
+  width: 60px;
+  height: 60px;
+  background-color: #20211c5f;
+  padding: 5px;
+  border-radius: 20px;
+}
+.ComicDetails .favories:hover {
+  color: rgb(176, 33, 33);
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 2px #000000;
+}
+section {
+  height: 100%;
+}
+
+.ComicDetails p {
+  color: black;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.characterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.characterContainer a {
+  height: fit-content;
+  border-radius: 4px;
+  text-align: center;
+  /* border: solid 2px red; */
+  width: 280px;
+
+  text-decoration: none;
+  color: black;
+
+  background-image: linear-gradient(
+      rgba(255, 55, 0, 0.05),
+      rgba(13, 13, 3, 0.164)
+    ),
+    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+}
+
+.characterContainer a div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f7f2a2;
+  padding: 20px;
+  gap: 20px;
+  height: 1000px;
+}
+
+.characterContainer h3 {
+  font-size: 30px;
+  width: 100%;
+  height: fit-content;
+  color: rgb(161, 7, 7);
+}
+
+.characterContainer img {
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.characterContainer div p {
+  color: black;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  margin: 100px auto;
+  width: 80px;
+  aspect-ratio: 1;
+  --c: #b72626 98%, #0000;
+  background: radial-gradient(50% 70% at 50% 120%, var(--c)) top,
+    radial-gradient(70% 50% at -20% 50%, var(--c)) right,
+    radial-gradient(50% 70% at 50% -20%, var(--c)) bottom,
+    radial-gradient(70% 50% at 120% 50%, var(--c)) left;
+  background-size: 100% 50.1%, 50.1% 100%;
+  background-repeat: no-repeat;
+  -webkit-mask: radial-gradient(circle 5px, #0000 90%, #000);
+  animation: l9 1.5s infinite linear;
+}
+@keyframes l9 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+/* loader
+.loader {
+  width: 90px;
+  height: 24px;
+  padding: 2px 0;
+  box-sizing: border-box;
+  display: flex;
+  animation: l5-0 3s infinite steps(6);
+  background: linear-gradient(#000 0 0) 0 0/0% 100% no-repeat,
+    radial-gradient(circle 3px, #eeee89 90%, #0000) 0 0/20% 100% #000;
+  overflow: hidden;
+}
+.loader::before {
+  content: "";
+  width: 20px;
+  transform: translate(-100%);
+  border-radius: 50%;
+  background: #ffff2d;
+  animation: l5-1 0.25s 0.153s infinite steps(5) alternate,
+    l5-2 3s infinite linear;
+}
+@keyframes l5-1 {
+  0% {
+    clip-path: polygon(
+      50% 50%,
+      100% 0,
+      100% 0,
+      0 0,
+      0 100%,
+      100% 100%,
+      100% 100%
+    );
+  }
+  100% {
+    clip-path: polygon(
+      50% 50%,
+      100% 65%,
+      100% 0,
+      0 0,
+      0 100%,
+      100% 100%,
+      100% 35%
+    );
+  }
+}
+@keyframes l5-2 {
+  100% {
+    transform: translate(90px);
+  }
+}
+@keyframes l5-0 {
+  100% {
+    background-size: 120% 100%, 20% 100%;
+  }
+} */

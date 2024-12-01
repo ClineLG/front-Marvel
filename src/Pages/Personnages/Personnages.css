@@ -1,0 +1,159 @@
+.topHero {
+  padding: 10px;
+  height: 100%;
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.topHero h1 {
+  /* border: solid 1px red; */
+  width: 100%;
+  font-size: 50px;
+}
+
+.hero img {
+  height: 100%;
+  object-fit: contain;
+}
+.hero {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  /* padding-left: 50px; */
+  display: flex;
+  width: 100%;
+  height: 500px;
+  border-top: black 5px solid;
+  border-bottom: black 5px solid;
+
+  background-color: #f6f7f2;
+}
+
+.searchHome {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  /* padding: 30px; */
+  align-items: center;
+  margin-bottom: 50px;
+}
+.searchHome form {
+  width: 50%;
+}
+.searchHome input {
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(183, 183, 183);
+}
+.searchHome input::placeholder {
+  font-size: 25px;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+}
+
+.contenentCharacters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex: 1;
+}
+
+.contenentCharacters img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.special {
+  object-position: top;
+}
+
+.contenentCharacters a {
+  border-radius: 4px;
+  text-align: center;
+  /* border: solid 2px red; */
+  width: 160px;
+  text-decoration: none;
+  color: black;
+
+  background-image: linear-gradient(
+      rgba(255, 55, 0, 0.05),
+      rgba(13, 13, 3, 0.164)
+    ),
+    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+}
+
+.contenentCharacters a div {
+  background-color: #f6f7f25f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  height: 100%;
+}
+
+.contenentCharacters a h3 {
+  font-size: 22px;
+  width: 100%;
+  height: fit-content;
+}
+
+.home {
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+
+.characterDetails {
+  height: fit-content;
+  border-radius: 5px;
+  width: 450px;
+  position: sticky;
+  top: 10px;
+  background-image: linear-gradient(
+      rgba(255, 55, 0, 0.05),
+      rgba(13, 13, 3, 0.164)
+    ),
+    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+}
+.characterDetails div {
+  background-color: #f6f7f2a2;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  justify-content: space-between;
+
+  border-radius: 3px;
+}
+.characterDetails img {
+  border: 4px black solid;
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.characterDetails p {
+  color: black;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 30px;
+}
+.characterDetails h3 {
+  padding-top: 30px;
+  font-size: 50px;
+  color: black;
+}

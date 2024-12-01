@@ -1,0 +1,40 @@
+.sectionPage {
+  background-image: linear-gradient(
+      rgba(255, 55, 0, 0.05),
+      rgba(13, 13, 3, 0.164)
+    ),
+    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+}
+.pages {
+  background-color: rgba(0, 0, 0, 0.614);
+  margin-top: 50px;
+  padding: 30px;
+  text-align: center;
+  color: #f6f7f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+}
+
+.bold {
+  font-size: 30px;
+  color: #820000;
+}
+.pages p:hover {
+  cursor: pointer;
+}
+
+.pages button {
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding-top: 3px;
+  background-color: #820000;
+}
+
+.pages button:hover {
+  cursor: pointer;
+}

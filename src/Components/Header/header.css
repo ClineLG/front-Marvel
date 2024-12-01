@@ -1,0 +1,131 @@
+header {
+  background-image: linear-gradient(
+      rgba(255, 55, 0, 0.05),
+      rgba(13, 13, 3, 0.164)
+    ),
+    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+
+  height: 100px;
+}
+
+header > div {
+  background-color: #505249ab;
+  height: 100%;
+}
+
+header .container {
+  padding: 0px 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* border: #000000 solid 3px; */
+  gap: 90px;
+}
+
+header .container > div {
+  display: flex;
+  gap: 30px;
+}
+header .container a {
+  height: 100%;
+  /* padding: 5px; */
+  font-size: 30px;
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.container a > span {
+  color: black;
+  background-color: #a7a9a0b6;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0px 0px 6px 2px #000000;
+}
+.container a > span:hover,
+.container a > img:hover {
+  box-shadow: 0px 0px 15px 5px #000000;
+}
+
+.connectedFeat {
+  flex: 1;
+  /* border: #000000 3px solid; */
+  display: flex;
+  align-self: center;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* .persoComic {
+  display: flex;
+  justify-content: flex-end;
+} */
+/* .testA {
+  display: flex;
+  justify-content: center; */
+/* } */
+header .container a > img {
+  height: 100%;
+  padding: 0px;
+  /* border: white 2px solid; */
+  box-shadow: 0px 0px 6px 2px #000000;
+}
+header .connectedFeat .favoriess {
+  color: #000000;
+  background-color: #a7a9a0d6;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0px 0px 6px 2px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connectedFeat .favoriess:hover {
+  box-shadow: 0px 0px 15px 5px #000000;
+}
+#connectionFeat {
+  /* font-size: 63px; */
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.biggerHead {
+  font-size: 30px;
+  margin-top: -5px;
+  height: 100%;
+}
+.deconnection div {
+  color: rgb(250, 250, 250);
+  /* border: 1px solid red; */
+  /* position: absolute;
+  top: -80px; */
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  background-color: rgba(19, 19, 19, 0.685);
+  padding: 5px;
+  box-shadow: 0px 0px 6px 2px #000000;
+}
+.deconnection {
+  /* border: #e90c0c solid 2px; */
+  display: flex;
+}
+
+.deconnection div:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 5px #000000;
+}
+.deconnection img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+/* .deconnection button {
+  border: none;
+} */

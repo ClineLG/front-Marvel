@@ -1,0 +1,36 @@
+@import url(./Fonts/stylesheet.css);
+
+* {
+  box-sizing: border-box;
+}
+body,
+* {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+h1,
+h2,
+h3 {
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.On {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.uWrong {
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.link:hover {
+  cursor: pointer;
+}

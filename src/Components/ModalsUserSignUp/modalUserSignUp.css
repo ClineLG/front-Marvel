@@ -1,0 +1,122 @@
+.SignUp {
+  background-color: #0d0e0f4e;
+
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SignUp div.mainSign {
+  width: 700px;
+  background-color: rgb(141, 2, 2);
+  width: 300px;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+.SignUp form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.SignUp form input {
+  font-size: 12px;
+  padding: 5px;
+
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  background-color: black;
+  color: white;
+}
+
+.SignUp form h2 {
+  font-size: 35px;
+}
+.SignUp .Submit {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+}
+.closeForm {
+  color: #000000;
+  background-color: transparent;
+  border: none;
+
+  font-size: 30px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+.closeForm:hover {
+  cursor: pointer;
+}
+.uWrong {
+  font-family: BentonSans ExtraComp, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.avatarContainer {
+  height: 94%; /* overflow: hidden; */
+  gap: 3px;
+  padding-left: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.avatarContainer img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border: 2px black solid;
+}
+.avatarContainer img:hover {
+  cursor: pointer;
+}
+.test {
+  border: none;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+.test:active {
+  border: 10px solid transparent;
+  background-color: rgb(141, 165, 120);
+}
+div.chevron {
+  padding: 3px;
+  /* margin: 2px; */
+  background-color: #000000;
+  border-radius: 5px;
+  color: white;
+  /* border: #000000 solid 1px; */
+}
+.chevron:hover {
+  cursor: pointer;
+}
+.bigContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 280px;
+  justify-content: center;
+  /* padding-top: ; */
+}
+
+form span {
+  margin-bottom: -20px;
+}
+.submit:hover {
+  cursor: pointer;
+}
