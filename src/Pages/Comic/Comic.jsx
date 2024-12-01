@@ -43,7 +43,7 @@ const Comic = () => {
   const handleClick = async (data) => {
     try {
       setMessage("");
-      console.log(data.comic);
+      // console.log(data.comic);
       const response = await axios.put(
         "https://site--marvel-backend--dm4qbjsg7dww.code.run/user/favories",
         data.comic,

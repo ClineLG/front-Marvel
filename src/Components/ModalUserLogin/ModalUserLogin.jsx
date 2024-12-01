@@ -18,7 +18,7 @@ const ModalUserLogin = ({ setLogin, setSignUp, setConnected }) => {
         userInfo
       );
       Cookies.set("token", response.data, { expires: 30 });
-      console.log(response.data);
+      // console.log(response.data);
       setConnected(true);
 
       setLogin(false);

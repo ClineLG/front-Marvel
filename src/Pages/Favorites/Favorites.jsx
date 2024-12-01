@@ -24,7 +24,7 @@ const Favorites = () => {
         );
 
         setData(response.data);
-        console.log("data fav", data);
+        // console.log("data fav", data);
         setIsLoading(false);
       } catch (error) {
         console.log(error.message);
@@ -35,7 +35,7 @@ const Favorites = () => {
 
   const handleClick = async (fav) => {
     try {
-      console.log("fav", fav._id);
+      // console.log("fav", fav._id);
       const response = await axios.delete(
         `https://site--marvel-backend--dm4qbjsg7dww.code.run/user/favories/${fav._id}`,
 
@@ -46,7 +46,7 @@ const Favorites = () => {
         }
       );
       setUpdate(response.data);
-      console.log(response.data);
+      // console.log(response.data);
     } catch (error) {
       console.log(error);
     }

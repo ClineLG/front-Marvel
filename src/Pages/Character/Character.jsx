@@ -37,7 +37,6 @@ const Character = () => {
 
   const handleClick = async (data) => {
     try {
-      console.log("");
       const response = await axios.put(
         "https://site--marvel-backend--dm4qbjsg7dww.code.run/user/favories",
         {

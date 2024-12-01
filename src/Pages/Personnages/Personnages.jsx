@@ -20,7 +20,7 @@ const Personnages = () => {
   const [characterDetail, setCharacterDetail] = useState({});
   const [result, setResult] = useState(0);
 
-  console.log(result);
+  // console.log(result);
   let pixi = "";
   useEffect(() => {
     setResult(funcRandom(batPortrait.length));
@@ -145,7 +145,7 @@ const Personnages = () => {
           })}
         </div>
       </div>{" "}
-      {console.log(data)}
+      {/* {console.log(data)} */}
       <Page setQuery={setQuery} query={query} data={data} />
     </section>
   ) : (
