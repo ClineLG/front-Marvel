@@ -17,9 +17,10 @@
       rgba(255, 55, 0, 0.05),
       rgba(13, 13, 3, 0.164)
     ),
-    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+    url("/public/imgs/background.jpg");
 }
 .ComicDetails div:not(.imgToFav) {
+  border-radius: 5px;
   padding: 30px;
   height: 100%;
   width: 100%;
@@ -97,7 +98,7 @@ section {
       rgba(255, 55, 0, 0.05),
       rgba(13, 13, 3, 0.164)
     ),
-    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+    url("/public/imgs/background.jpg");
 }
 
 .characterContainer a div {

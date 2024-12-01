@@ -3,7 +3,7 @@ header {
       rgba(255, 55, 0, 0.05),
       rgba(13, 13, 3, 0.164)
     ),
-    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+    url("/public/imgs/background.jpg");
 
   height: 100px;
 }

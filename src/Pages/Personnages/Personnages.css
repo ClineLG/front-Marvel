@@ -87,7 +87,7 @@
       rgba(255, 55, 0, 0.05),
       rgba(13, 13, 3, 0.164)
     ),
-    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+    url("/public/imgs/background.jpg");
 }
 
 .contenentCharacters a div {
@@ -124,7 +124,7 @@
       rgba(255, 55, 0, 0.05),
       rgba(13, 13, 3, 0.164)
     ),
-    url("/Users/celin_tfx35/Desktop/Marvel-Front/src/assets/imgs/background.jpg");
+    url("/public/imgs/background.jpg");
 }
 .characterDetails div {
   background-color: #f6f7f2a2;
